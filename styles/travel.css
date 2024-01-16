@@ -9,6 +9,12 @@ body {
     font-family: 'Inter', sans-serif;
     font-family: 'Mulish', sans-serif;
     padding: 52px 135px;
+    border: 2px solid green;
+}
+
+.btn-primary {
+    background-color: #FF5400;
+    color: #FFF;
 }
 
 /* header section */
@@ -56,4 +62,129 @@ nav {
 
 .menu-bar a {
     text-decoration: none;
+}
+
+/* banner-section */
+.banner-section {
+    /* border: 2px solid tomato; */
+    max-width: 1080px;
+    width: 1170px;
+    height: 500px;
+    margin-top: 49px;
+    background-image: linear-gradient(180deg,
+            rgba(19, 19, 24, 0.8) 0%,
+            rgba(19, 19, 24, 0) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.banner-content {
+    position: relative;
+    text-align: center;
+    padding-top: 106px;
+    padding-left: 287;
+    padding-right: 287;
+}
+
+.title {
+    /* border: 2px solid crimson; */
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.description {
+    /* border: 2px solid cyan; */
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+
+*/ .search-bar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+}
+
+.search-bar input {
+    color: rgba(19, 19, 24, 0.50);
+    border-radius: 8px;
+    background: #FFF;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.search-bar label {
+    color: rgba(19, 19, 24, 0.50);
+    border-radius: 8px;
+    background: #FFF;
+    padding: 14px;
+    margin-left: 24px;
+    margin-right: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.search-bar button {
+    padding: 16px 16px 16px 67px;
+    border-radius: 8px;
+}
+
+/* popular tours section */
+.popular-tours {
+    /* border: 2px solid skyblue; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.tours-description {
+    width: 50%;
+}
+
+.tours-img {
+    width: 50%;
+    width: 540px;
+    height: 600px;
+    padding-left: 60px;
+    /* border: 2px solid purple; */
+}
+
+li {
+    padding: 3px;
+}
+
+#title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 24px;
+}
+
+#description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    /* gap: 24px; */
+    margin-bottom: 24px;
+    line-height: 26px;
+}
+
+#tours-description {
+    /* border: 2px solid olive; */
+}
+
+#btn {
+    /* border: 2px solid olivedrab; */
+    width: 174px;
+    height: 52px;
+    color: #FFF;
+    border-radius: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
